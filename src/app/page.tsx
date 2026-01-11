@@ -8,7 +8,7 @@ export default function Home() {
       <header className="py-6">
         <div className="site-container flex items-center justify-between">
           <a href="/" className="flex items-center gap-3">
-            <img src="https://cruel-moccasin-k3oxtvs1zf.edgeone.app/snaptik_7453504786424483104_4.jpeg" alt="Ashspire logo" className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover" />
+            <img src="https://cruel-moccasin-k3oxtvs1zf.edgeone.app/snaptik_7453504786424483104_4.jpeg" alt="Ashspire logo" className="logo" />
             <span className="text-lg font-semibold tracking-tight">ashspire.dev</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm muted">
