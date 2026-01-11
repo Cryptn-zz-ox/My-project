@@ -1,0 +1,12 @@
+export default function EdgeboardCase() {
+  return (
+    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
+      <main className="mx-auto max-w-4xl px-6 py-20">
+        <h1 className="text-3xl font-bold">EdgeBoard — Case note</h1>
+        <p className="mt-4 text-sm text-zinc-700 dark:text-zinc-300">Prototype notes, keyboard patterns, and realtime sync decisions.</p>
+        <p className="mt-6 text-sm">(Placeholder) Full case note to be added.</p>
+        <a href="/" className="mt-8 inline-block underline">Back</a>
+      </main>
+    </div>
+  );
+}
