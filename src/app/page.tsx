@@ -7,7 +7,10 @@ export default function Home() {
     <div className="min-h-screen antialiased">
       <header className="py-6">
         <div className="site-container flex items-center justify-between">
-          <a href="#home" className="text-lg font-semibold tracking-tight">ashspire.dev</a>
+          <a href="/" className="flex items-center gap-3">
+            <img src="https://cruel-moccasin-k3oxtvs1zf.edgeone.app/snaptik_7453504786424483104_4.jpeg" alt="Ashspire logo" className="w-10 h-10 rounded-full object-cover" />
+            <span className="text-lg font-semibold tracking-tight">ashspire.dev</span>
+          </a>
           <nav className="hidden md:flex items-center gap-6 text-sm muted">
             <a href="#projects" className="hover:text-[color:var(--accent)]">Projects</a>
             <a href="#system" className="hover:text-[color:var(--accent)]">Design System</a>
@@ -136,8 +139,8 @@ export default function Home() {
         <div className="site-container flex items-center justify-between text-sm muted">
           <div>© 2026 ashspire.dev — Built and designed by Ashspire (Lagos)</div>
           <div className="flex gap-4">
-            <a href="/resume.pdf" className="underline">Resume</a>
-            <a href="https://github.com/ashspire" className="underline">GitHub</a>
+          <a href="https://royal-moccasin-tmpiqohmub.edgeone.app/Abdullahi%20Adewummi%E2%80%99s%20Resume.pdf" className="underline" target="_blank" rel="noreferrer">Resume</a>
+          <a href="https://www.linkedin.com/in/abdullahi-adewunmi-95752a3a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="underline" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </footer>
