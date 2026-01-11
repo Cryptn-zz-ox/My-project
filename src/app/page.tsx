@@ -8,7 +8,7 @@ export default function Home() {
       <header className="py-6">
         <div className="site-container flex items-center justify-between">
           <a href="/" className="flex items-center gap-3">
-            <img src="https://cruel-moccasin-k3oxtvs1zf.edgeone.app/snaptik_7453504786424483104_4.jpeg" alt="Ashspire logo" className="w-10 h-10 rounded-full object-cover" />
+            <img src="https://cruel-moccasin-k3oxtvs1zf.edgeone.app/snaptik_7453504786424483104_4.jpeg" alt="Ashspire logo" className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover" />
             <span className="text-lg font-semibold tracking-tight">ashspire.dev</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm muted">
@@ -129,7 +129,7 @@ export default function Home() {
             <p className="mt-4 text-sm muted">Available for remote junior roles and high-impact contracts. Email: <a href="mailto:ashspirehq@gmail.com" className="underline">ashspirehq@gmail.com</a></p>
             <div className="mt-4 flex gap-3">
               <a href="https://calendly.com/ashspire/30" className="btn border">Schedule 30m</a>
-              <a href="https://linkedin.com/in/ashspire" className="btn border">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/abdullahi-adewunmi-95752a3a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="btn border" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
           </div>
         </section>
