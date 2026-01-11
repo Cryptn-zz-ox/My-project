@@ -21,20 +21,40 @@ export default function Home() {
             <div>
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">I design and ship production web apps that measure up.</h1>
               <p className="mt-4 max-w-xl text-lg muted">Self‑taught front‑end builder (Lagos). I ship performant, accessible products and design systems—fast.</p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a href="/case/flagship" className="btn" style={{backgroundColor:'var(--accent)',color:'#fff'}}>View flagship case study</a>
-                <a href="#projects" className="btn border" style={{borderColor:'rgba(15,23,32,0.06)'}}>Projects</a>
+              <div className="mt-8 flex flex-wrap gap-3 reveal">
+                <a href="/case/flagship" className="btn accent">View flagship case study</a>
+                <a href="#projects" className="btn" style={{border:'1px solid rgba(15,23,32,0.06)'}}>Projects</a>
               </div>
             </div>
 
-            <div className="hidden md:block">
-              <div className="card">
-                <div className="text-sm muted">Featured</div>
-                <h3 className="mt-2 text-xl font-semibold">BoldFlag — production dashboard</h3>
-                <p className="mt-2 muted text-sm">Accessible admin UI used by paying customers. LCP median 850ms after optimizations.</p>
-                <div className="mt-3 flex gap-2">
-                  <a href="/case/flagship" className="text-sm underline">Read case</a>
-                  <a href="https://flagship.ashspire.dev" className="text-sm underline" target="_blank" rel="noreferrer">Live</a>
+            <div className="hidden md:block reveal">
+              <div className="card" style={{overflow:'hidden'}}>
+                <div style={{display:'grid',gridTemplateColumns:'1fr 160px',gap:'1rem',alignItems:'center'}}>
+                  <div>
+                    <div className="text-sm muted">Featured</div>
+                    <h3 className="mt-2 text-xl font-semibold">BoldFlag — production dashboard</h3>
+                    <p className="mt-2 muted text-sm">Accessible admin UI used by paying customers. LCP median 850ms after optimizations.</p>
+                    <div className="mt-3 flex gap-3">
+                      <a href="/case/flagship" className="text-sm underline">Read case</a>
+                      <a href="https://flagship.ashspire.dev" className="text-sm underline" target="_blank" rel="noreferrer">Live</a>
+                    </div>
+                  </div>
+                  <div>
+                    <svg className="hero-illustration" viewBox="0 0 280 160" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" aria-hidden>
+                      <defs>
+                        <linearGradient id="g1" x1="0" x2="1">
+                          <stop offset="0" stopColor="#7c3aed" />
+                          <stop offset="1" stopColor="#8b5cf6" />
+                        </linearGradient>
+                      </defs>
+                      <rect x="0" y="0" width="280" height="160" rx="10" fill="#0f1720" opacity="0.04" />
+                      <g transform="translate(16,16)">
+                        <rect x="0" y="0" width="160" height="60" rx="8" fill="url(#g1)" />
+                        <rect x="0" y="72" width="120" height="10" rx="4" fill="#e6eef8" opacity="0.7" />
+                        <circle cx="220" cy="38" r="24" fill="#fff" opacity="0.06" />
+                      </g>
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -101,7 +121,7 @@ export default function Home() {
         <section id="contact" className="py-12 border-t" style={{borderColor:'rgba(2,6,23,0.04)'}}>
           <div className="site-container">
             <h2 className="text-2xl font-semibold">Contact</h2>
-            <p className="mt-4 text-sm muted">Available for remote junior roles and high-impact contracts. Email: <a href="mailto:hi@ashspire.dev" className="underline">hi@ashspire.dev</a></p>
+            <p className="mt-4 text-sm muted">Available for remote junior roles and high-impact contracts. Email: <a href="mailto:ashspirehq@gmail.com" className="underline">ashspirehq@gmail.com</a></p>
             <div className="mt-4 flex gap-3">
               <a href="https://calendly.com/ashspire/30" className="btn border">Schedule 30m</a>
               <a href="https://linkedin.com/in/ashspire" className="btn border">LinkedIn</a>
